@@ -1,6 +1,7 @@
 # SQL Pipeline
 
 This folder contains the complete SQL workflow used to build the **Formula 1 Driver Talent Evaluation Framework**.
+
 The SQL scripts are organized as a sequential analytics pipeline, starting from raw database creation and ending with the final driver ranking dataset.
 
 ---
