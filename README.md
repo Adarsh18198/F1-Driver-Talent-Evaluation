@@ -199,6 +199,4 @@ Additional documentation is available in the `docs` folder.
 * Assumptions
 * Limitations
 
----
-
 This project was built as part of my analytics portfolio to demonstrate SQL, data modeling, KPI engineering and analytical problem-solving through a real-world Formula 1 case study.
