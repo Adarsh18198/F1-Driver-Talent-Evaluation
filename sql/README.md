@@ -96,20 +96,23 @@ Calculates all driver performance KPIs.
 
 ### Qualifying Metrics
 
+* Total Qualifying Comparisons
 * Qualifying Win Rate
 * Average Qualifying Gap
 * Qualifying Standard Deviation
 
 ### Race Metrics
 
+* Total Race Comparisons
 * Race Win Rate
 * Average Finish Gap
 * Race Standard Deviation
 
 ### Output
 
-* `qualifying_performance_summary`
-* `race_performance_summary`
+* `qualifying_summary`
+* `race_result_view`
+* `race_summary`
 * `driver_performance_summary`
 
 ---
@@ -126,12 +129,14 @@ Converts the performance metrics into a single Driver Talent Index.
 * Weighted Talent Index
 * Data Confidence Score
 * Confidence Band
+* Overall Standard Deviation
 
 ### Output
 
 * `normalized_driver_metrics`
 * `driver_talent_index_v1`
 * `driver_talent_index_v2`
+* `driver_talent_index_v3`
 
 ---
 
@@ -143,18 +148,17 @@ Creates the final analytical dataset used for reporting and dashboarding.
 
 ### Final Dataset Includes
 
+* Driver Name
 * Talent Index
-* Confidence Score
-* Confidence Band
-* Qualifying Metrics
-* Race Metrics
-* Standard Deviation Metrics
 * Overall Standard Deviation
 * Total Comparisons
+* Data Confidence Score
+* Confidence Band
+* Talent Rank
 
 ### Output
 
-* `driver_talent_index_final`
+* `final_version`
 
 ---
 
