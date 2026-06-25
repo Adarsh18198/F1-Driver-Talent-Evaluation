@@ -30,11 +30,11 @@ Since both drivers have access to nearly identical machinery, teammate compariso
 The complete methodology follows the pipeline below.
 
 ```text
-   Raw Dataset
+Raw Dataset
       ↓
 Modern Era Filtering
       ↓
-  Data Cleaning
+Data Cleaning
       ↓
 Valid Race Selection
       ↓
