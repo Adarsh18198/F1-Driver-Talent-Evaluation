@@ -165,25 +165,25 @@ Creates the final analytical dataset used for reporting and dashboarding.
 # Overall SQL Workflow
 
 ```
-Raw Formula 1 Dataset
+   Raw Formula 1 Dataset
             │
             ▼
-Database Setup
+      Database Setup
             │
             ▼
 Data Cleaning & Preprocessing
             │
             ▼
-Teammate Comparisons
+    Teammate Comparisons
             │
             ▼
-Performance KPI Engineering
+  Performance KPI Engineering
             │
             ▼
-Talent Index Calculation
+T  alent Index Calculation
             │
             ▼
-Final Analytical Dataset
+   Final Analytical Dataset
 ```
 
 ---
