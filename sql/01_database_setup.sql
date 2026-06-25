@@ -116,3 +116,10 @@ CREATE TABLE `races` (
   KEY `idx_races_year` (`year`),
   CONSTRAINT `fk_races_circuit` FOREIGN KEY (`circuitId`) REFERENCES `circuits` (`circuitId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+
+-- status table
+CREATE TABLE `status` (
+  `statusId` int NOT NULL,
+  `status` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`statusId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
